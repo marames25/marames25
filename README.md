@@ -1,5 +1,5 @@
 #  About Me:
-Hi ! I'm Maram Esmaeil<br>
+Third-year Computer Science student at Cairo University with strong skills in problem solving, backend development, software engineering .<br>
 
 
 ##  Socials:
@@ -11,11 +11,5 @@ Hi ! I'm Maram Esmaeil<br>
 ![](https://github-readme-stats.vercel.app/api?username=marames25&theme=shadow_green&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=marames25&theme=shadow_green&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&theme=shadow_green&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=marames25&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
----
-[![](https://visitcount.itsvg.in/api?id=marames25&icon=6&color=3)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
