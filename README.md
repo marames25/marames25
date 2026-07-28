@@ -18,9 +18,9 @@ Passionate about building scalable software, exploring AI technologies, and cont
 
  I enjoy designing scalable backend systems, solving challenging programming problems, and building projects that combine clean architecture with practical solutions.
 
-📚 Currently expanding my knowledge in **.NET**, **Artificial Intelligence**, **Large Language Models (LLMs)**, and modern backend technologies.
+Currently expanding my knowledge in **.NET**, **Artificial Intelligence**, **Large Language Models (LLMs)**, and modern backend technologies.
 
-🌱 I believe that continuous learning, curiosity, and writing clean, maintainable code are the keys to becoming a better software engineer every day.
+I believe that continuous learning, curiosity, and writing clean, maintainable code are the keys to becoming a better software engineer every day.
 
 ---
 
@@ -155,5 +155,5 @@ Feel free to connect, collaborate, or discuss.
 ---
 
 <p align="center">
-✨<b>Always Learning • Always Building • Always Improving</b> 
+<b>Always Learning • Always Building • Always Improving</b> 
 </p>
