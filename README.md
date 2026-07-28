@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Maram Esmaeil</h1>
+<h1 align="center">Hi , I'm Maram Esmaeil</h1>
 
 <h3 align="center">
 Senior Computer Science Student | Backend Developer | AI Enthusiast | Problem Solver
@@ -12,11 +12,11 @@ Passionate about building scalable software, exploring AI technologies, and cont
 
 # 👩‍💻 About Me
 
-🎓 Senior Computer Science student at the Faculty of Computers and Artificial Intelligence, Cairo University.
+ Senior Computer Science student at the Faculty of Computers and Artificial Intelligence, Cairo University.
 
-💻 Passionate about Backend Development, Software Engineering, and Artificial Intelligence.
+ Passionate about Backend Development, Software Engineering, and Artificial Intelligence.
 
-🚀 I enjoy designing scalable backend systems, solving challenging programming problems, and building projects that combine clean architecture with practical solutions.
+ I enjoy designing scalable backend systems, solving challenging programming problems, and building projects that combine clean architecture with practical solutions.
 
 📚 Currently expanding my knowledge in **.NET**, **Artificial Intelligence**, **Large Language Models (LLMs)**, and modern backend technologies.
 
@@ -108,11 +108,11 @@ Passionate about building scalable software, exploring AI technologies, and cont
 
 # 🎯 Current Focus
 
-- 🚀 Mastering Backend Development with .NET
-- 🤖 Learning AI & Large Language Models
-- 💡 Building Real-World Projects
-- 📈 Improving Problem Solving Skills
-- ✨ Writing Clean, Scalable Code
+-  Mastering Backend Development with .NET
+-  Learning AI & Large Language Models
+-  Building Real-World Projects
+-  Improving Problem Solving Skills
+-   Writing Clean, Scalable Code
 
 ---
 
@@ -143,19 +143,17 @@ Passionate about building scalable software, exploring AI technologies, and cont
 
 #  Connect With Me
 
-💼 **LinkedIn**  
+ **Email**  
+maramesmaeil353@gmail.com
+
+ **LinkedIn**  
 https://www.linkedin.com/in/maram-esmaeil-904588326
 
-💻 **Codeforces**  
-https://codeforces.com/profile/maramesmail353
 
-🧩 **VJudge**  
-https://vjudge.net/user/Ma_ram123
-
-📧 Feel free to connect, collaborate, or discuss Software Engineering, Backend Development, and AI.
+Feel free to connect, collaborate, or discuss.
 
 ---
 
 <p align="center">
-✨ <b>Always Learning • Always Building • Always Improving</b> 🚀
+✨<b>Always Learning • Always Building • Always Improving</b> 
 </p>
