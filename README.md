@@ -1,9 +1,7 @@
 <h1 align="center">Hi , I'm Maram Esmaeil</h1>
 
 <h3 align="center">
-Senior Computer Science Student | Backend Developer | AI Enthusiast | Problem Solver
-</h3>
-
+Senior Computer Science Student | Software Engineer 
 <p align="center">
 Passionate about building scalable software, exploring AI technologies, and continuously learning modern software engineering practices.
 </p>
