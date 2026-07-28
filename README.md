@@ -73,38 +73,6 @@ Passionate about building scalable software, exploring AI technologies, and cont
 
 ---
 
-# 🌱 Currently Learning
-
-- ASP.NET Core & .NET
-- C#
-- Entity Framework Core
-- REST API Development
-- Deep Learning
-- Neural Networks
-- Transformers & Large Language Models (LLMs)
-- PyTorch
-- Prompt Engineering
-- Agentic AI
-- Software Testing
-- System Design Fundamentals
-
----
-
-# 🚀 Exploring
-
-- Machine Learning
-- Generative AI
-- Retrieval-Augmented Generation (RAG)
-- AI Agents
-- Design Patterns
-- Clean Architecture
-- Microservices
-- Authentication & Authorization
-- API Security
-- Software Architecture
-
----
-
 # 📚 Knowledge & Skills
 
 ### Software Engineering
@@ -151,10 +119,10 @@ Passionate about building scalable software, exploring AI technologies, and cont
 # ⚡ Interests
 
 - Backend Development
-- Artificial Intelligence
 - Software Engineering
 - Problem Solving
 - Open Source
+- Artificial Intelligence
 - System Design
 
 ---
@@ -173,7 +141,7 @@ Passionate about building scalable software, exploring AI technologies, and cont
 
 ---
 
-# 🤝 Connect With Me
+#  Connect With Me
 
 💼 **LinkedIn**  
 https://www.linkedin.com/in/maram-esmaeil-904588326
