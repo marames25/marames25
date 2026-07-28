@@ -1,22 +1,26 @@
 <h1 align="center">Hi 👋, I'm Maram Esmaeil</h1>
 
 <h3 align="center">
-Computer Science Student | Backend Developer | AI Enthusiast | Problem Solver
+Senior Computer Science Student | Backend Developer | AI Enthusiast | Problem Solver
 </h3>
+
+<p align="center">
+Passionate about building scalable software, exploring AI technologies, and continuously learning modern software engineering practices.
+</p>
 
 ---
 
 # 👩‍💻 About Me
 
-🎓 Third-year Computer Science student at Cairo University (FCAI).
+🎓 Senior Computer Science student at the Faculty of Computers and Artificial Intelligence, Cairo University.
 
 💻 Passionate about Backend Development, Software Engineering, and Artificial Intelligence.
 
-🚀 I enjoy building scalable applications, designing efficient backend systems, solving challenging programming problems, and continuously learning modern technologies.
+🚀 I enjoy designing scalable backend systems, solving challenging programming problems, and building projects that combine clean architecture with practical solutions.
 
-📚 Currently expanding my knowledge in .NET, Artificial Intelligence, Large Language Models (LLMs), and Software Engineering best practices.
+📚 Currently expanding my knowledge in **.NET**, **Artificial Intelligence**, **Large Language Models (LLMs)**, and modern backend technologies.
 
-💡 I believe that curiosity, consistency, and clean code are the foundation of becoming a great software engineer.
+🌱 I believe that continuous learning, curiosity, and writing clean, maintainable code are the keys to becoming a better software engineer every day.
 
 ---
 
@@ -33,10 +37,10 @@ Computer Science Student | Backend Developer | AI Enthusiast | Problem Solver
 
 ---
 
-### 🎨 Frontend
+### 🌐 Frontend
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
@@ -45,9 +49,9 @@ Computer Science Student | Backend Developer | AI Enthusiast | Problem Solver
 
 ### ⚙️ Backend
 
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.net)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=.net)
 
 ---
 
@@ -58,110 +62,100 @@ Computer Science Student | Backend Developer | AI Enthusiast | Problem Solver
 
 ---
 
-### 🛠 Tools & Technologies
+### 🧰 Tools
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva)
-![Adobe Photoshop](https://img.shields.io/badge/Photoshop-001E36?style=for-the-badge&logo=adobephotoshop)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
 
 ---
 
 # 🌱 Currently Learning
 
-- ASP.NET Core
-- .NET Development
+- ASP.NET Core & .NET
 - C#
-- Deep Learning Fundamentals
+- Entity Framework Core
+- REST API Development
+- Deep Learning
 - Neural Networks
 - Transformers & Large Language Models (LLMs)
 - PyTorch
 - Prompt Engineering
 - Agentic AI
-- Software Testing & Quality Assurance
-- REST APIs
-- Backend Architecture
-- Database Optimization
+- Software Testing
+- System Design Fundamentals
 
 ---
 
-# 🚀 Currently Exploring
+# 🚀 Exploring
 
 - Machine Learning
 - Generative AI
-- AI Agents
 - Retrieval-Augmented Generation (RAG)
+- AI Agents
 - Design Patterns
 - Clean Architecture
-- Microservices Fundamentals
-- Software Design Principles
+- Microservices
+- Authentication & Authorization
+- API Security
+- Software Architecture
 
 ---
 
-# 📚 What I've Learned
-
-### Programming
-- C
-- C++
-- Java
-- Python
-- JavaScript
+# 📚 Knowledge & Skills
 
 ### Software Engineering
 - Object-Oriented Programming (OOP)
 - SOLID Principles
+- Design Patterns
 - Data Structures & Algorithms
 - Problem Solving
-- Design Patterns (Basics)
-- Software Engineering Fundamentals
-
-### Backend
-- REST APIs
-- Node.js
-- Django
+- Software Testing Fundamentals
 - Database Design
 
-### Databases
-- MySQL
-- MongoDB
-- SQL
+### Backend Development
+- REST APIs
+- CRUD Applications
+- Backend Architecture
+- Authentication Basics
+- API Integration
 
-### Web Development
-- HTML
-- CSS
-- Bootstrap
-- Tailwind CSS
-- React
+### AI & Data
+- Machine Learning Fundamentals
+- Deep Learning Basics
+- Transformers
+- Prompt Engineering
+- LLM Fundamentals
 
-### Development Tools
-- Git
-- GitHub
-- Postman
-- VS Code
+### Development
+- Git & GitHub
+- Debugging
+- Clean Code
+- Agile Mindset
 
 ---
 
 # 🎯 Current Focus
 
-✔ Mastering Backend Development with .NET
-
-✔ Strengthening Data Structures & Algorithms
-
-✔ Building Scalable Backend Projects
-
-✔ Learning AI & Large Language Models (LLMs)
-
-✔ Writing Clean, Maintainable, and Scalable Code
-
-✔ Preparing for Software Engineering Internships
+- 🚀 Mastering Backend Development with .NET
+- 🤖 Learning AI & Large Language Models
+- 💡 Building Real-World Projects
+- 📈 Improving Problem Solving Skills
+- ✨ Writing Clean, Scalable Code
 
 ---
 
-# 💡 Learning Philosophy
+# ⚡ Interests
 
-> *"Every project teaches me something new. Every bug improves my debugging skills. Every challenge brings me one step closer to becoming a better software engineer."*
+- Backend Development
+- Artificial Intelligence
+- Software Engineering
+- Problem Solving
+- Open Source
+- System Design
 
 ---
 
@@ -179,19 +173,7 @@ Computer Science Student | Backend Developer | AI Enthusiast | Problem Solver
 
 ---
 
-# 🎯 2026 Goals
-
-- 🚀 Become a strong Backend Engineer
-- 🤖 Build AI-powered applications
-- 🧠 Master .NET and ASP.NET Core
-- 📚 Deepen my knowledge of LLMs and Generative AI
-- 💻 Contribute to Open Source Projects
-- 🏆 Solve 500+ programming problems
-- 💼 Land a Software Engineering Internship
-
----
-
-# 🤝 Let's Connect
+# 🤝 Connect With Me
 
 💼 **LinkedIn**  
 https://www.linkedin.com/in/maram-esmaeil-904588326
@@ -202,8 +184,10 @@ https://codeforces.com/profile/maramesmail353
 🧩 **VJudge**  
 https://vjudge.net/user/Ma_ram123
 
-📫 I'm always open to collaborating on interesting projects, discussing software engineering, backend development, and AI, or simply connecting with fellow developers.
+📧 Feel free to connect, collaborate, or discuss Software Engineering, Backend Development, and AI.
 
 ---
 
-⭐ **"Always Learning. Always Building. Always Improving."**
+<p align="center">
+✨ <b>Always Learning • Always Building • Always Improving</b> 🚀
+</p>
