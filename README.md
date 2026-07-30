@@ -125,20 +125,6 @@ I believe that continuous learning, curiosity, and writing clean, maintainable c
 
 ---
 
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=marames25&show_icons=true&theme=tokyonight"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=marames25&theme=tokyonight"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-
 #  Connect With Me
 
  **Email**  
