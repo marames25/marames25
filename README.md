@@ -8,7 +8,7 @@ Passionate about building scalable software, exploring AI technologies, and cont
 
 ---
 
-# 👩‍💻 About Me
+#  About Me
 
  Senior Computer Science student at the Faculty of Computers and Artificial Intelligence, Cairo University.
 
@@ -22,9 +22,9 @@ I believe that continuous learning, curiosity, and writing clean, maintainable c
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
-### 💻 Languages
+###  Languages
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -35,7 +35,7 @@ I believe that continuous learning, curiosity, and writing clean, maintainable c
 
 ---
 
-### 🌐 Frontend
+###  Frontend
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
@@ -45,7 +45,7 @@ I believe that continuous learning, curiosity, and writing clean, maintainable c
 
 ---
 
-### ⚙️ Backend
+###  Backend
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django)
@@ -60,7 +60,7 @@ I believe that continuous learning, curiosity, and writing clean, maintainable c
 
 ---
 
-### 🧰 Tools
+###  Tools
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
@@ -71,7 +71,7 @@ I believe that continuous learning, curiosity, and writing clean, maintainable c
 
 ---
 
-# 📚 Knowledge & Skills
+#  Knowledge & Skills
 
 ### Software Engineering
 - Object-Oriented Programming (OOP)
@@ -104,7 +104,7 @@ I believe that continuous learning, curiosity, and writing clean, maintainable c
 
 ---
 
-# 🎯 Current Focus
+#  Current Focus
 
 -  Mastering Backend Development with .NET
 -  Learning AI & Large Language Models
@@ -114,7 +114,7 @@ I believe that continuous learning, curiosity, and writing clean, maintainable c
 
 ---
 
-# ⚡ Interests
+#  Interests
 
 - Backend Development
 - Software Engineering
