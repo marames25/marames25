@@ -335,8 +335,7 @@ Deepening my backend development knowledge while continuing to explore AI and so
 <tr>
 <td>
 
-<img src="./profile/stats.svg" width="500"/>
-
+<img src="./profile/stats.svg?v=2" width="500"/>
 </td>
 <td>
 
