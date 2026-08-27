@@ -357,12 +357,6 @@ My testing experience includes:
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=marames25&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=9B59FF&icon_color=9B59FF&text_color=ffffff" />
-
-<br><br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&layout=compact&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=9B59FF&text_color=ffffff" />
-
 </div>
 
 ---
