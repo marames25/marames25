@@ -4,11 +4,11 @@
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=30&duration=3000&pause=1000&color=9B59FF&center=true&vCenter=true&width=800&height=70&lines=Hi%2C+I'm+Maram+%F0%9F%91%8B;Welcome+to+my+digital+space+%F0%9F%92%9C" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=30&duration=3000&pause=1000&color=9B59FF&center=true&vCenter=true&width=850&height=70&lines=Hi%2C+I'm+Maram;Welcome+to+my+digital+space" />
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=15&duration=2800&pause=900&color=C8A2FF&center=true&vCenter=true&width=900&height=50&lines=Computer+Science+Student+%7C+Backend+%7C+Software+Testing+%7C+AI;Building+software+%7C+Breaking+bugs+%7C+Learning+every+day" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=15&duration=2800&pause=900&color=C8A2FF&center=true&vCenter=true&width=900&height=50&lines=Computer+Science+Student+%7C+Backend+%7C+Software+Testing+%7C+AI;Building+software+%7C+Testing+systems+%7C+Learning+every+day" />
 
 <br><br>
 
@@ -30,9 +30,11 @@
 
 </div>
 
-I'm a Computer Science student at Cairo University with a strong interest in **Backend Development, Software Testing, and Artificial Intelligence**.
+I'm a Computer Science student at **Cairo University** with a strong interest in **Backend Development, Software Testing, and Artificial Intelligence**.
 
-I enjoy building applications, working with APIs and backend technologies, and making software more reliable through testing and automation. I'm also exploring **Generative AI, LLMs, RAG, and AI Agents** through hands-on projects.
+I enjoy building applications, working with APIs and backend technologies, and improving software reliability through testing and automation.
+
+I'm also exploring **Generative AI, LLMs, RAG, and AI Agents** through hands-on projects.
 
 Currently, I'm focusing on strengthening my backend development skills while continuing to grow in software testing and AI.
 
@@ -40,25 +42,20 @@ Currently, I'm focusing on strengthening my backend development skills while con
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-7c9c1c91-0e6c-4c0f-8f6c-8c6a7a7c4a7a.gif" width="100"/>
-
-</div>
-
----
-
-<div align="center">
-
-##  WHAT I'M INTO
+## WHAT I WORK WITH
 
 </div>
 
 <table>
 <tr>
+
 <td width="33%" align="center">
 
-###  BACKEND
+### BACKEND
 
 Building APIs and learning how applications communicate behind the scenes.
+
+<br>
 
 `Node.js`
 
@@ -74,9 +71,11 @@ Building APIs and learning how applications communicate behind the scenes.
 
 <td width="33%" align="center">
 
-###  QUALITY
+### SOFTWARE TESTING
 
-Making sure software doesn't just work — it works reliably.
+Focused on building reliable software through testing and automation.
+
+<br>
 
 `Selenium`
 
@@ -92,9 +91,11 @@ Making sure software doesn't just work — it works reliably.
 
 <td width="33%" align="center">
 
-###  AI
+### ARTIFICIAL INTELLIGENCE
 
-Experimenting with intelligent applications and LLM-powered systems.
+Exploring intelligent applications and LLM-powered systems.
+
+<br>
 
 `LangChain`
 
@@ -107,6 +108,7 @@ Experimenting with intelligent applications and LLM-powered systems.
 `Hugging Face`
 
 </td>
+
 </tr>
 </table>
 
@@ -114,7 +116,7 @@ Experimenting with intelligent applications and LLM-powered systems.
 
 <div align="center">
 
-##  TECHNOLOGIES
+## TECHNOLOGIES
 
 </div>
 
@@ -130,7 +132,9 @@ Experimenting with intelligent applications and LLM-powered systems.
 
 </div>
 
-### Backend
+---
+
+### Backend Development
 
 <div align="center">
 
@@ -142,22 +146,26 @@ Experimenting with intelligent applications and LLM-powered systems.
 
 </div>
 
-### Testing
+---
+
+### Software Testing
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Selenium-9B59FF?style=for-the-badge&logo=selenium&logoColor=white"/>
 <img src="https://img.shields.io/badge/TestNG-9B59FF?style=for-the-badge&logoColor=white"/>
 <img src="https://img.shields.io/badge/SHAFT-9B59FF?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/POM-9B59FF?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Page%20Object%20Model-9B59FF?style=for-the-badge&logoColor=white"/>
 
 </div>
 
-### AI / ML
+---
+
+### AI & Machine Learning
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch"/>
+<img src="https://skillicons.dev/icons?i=python,pytorch" />
 
 <br><br>
 
@@ -169,11 +177,13 @@ Experimenting with intelligent applications and LLM-powered systems.
 
 </div>
 
+---
+
 ### Tools
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,maven"/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,maven" />
 
 </div>
 
@@ -181,18 +191,19 @@ Experimenting with intelligent applications and LLM-powered systems.
 
 <div align="center">
 
-##  PROJECTS I'M PROUD OF
+## FEATURED PROJECTS
 
 </div>
 
 <table>
+
 <tr>
 
 <td width="50%" valign="top">
 
-### 🔍 Passport MRZ OCR
+### Passport MRZ OCR
 
-An end-to-end pipeline for passport MRZ detection, OCR extraction, parsing and validation.
+An end-to-end computer vision pipeline for passport MRZ detection, OCR extraction, parsing, and validation.
 
 **Pipeline**
 
@@ -205,16 +216,16 @@ An end-to-end pipeline for passport MRZ detection, OCR extraction, parsing and v
 <br>
 
 <a href="https://github.com/marames25/Passport-MRZ-OCR">
-<img src="https://img.shields.io/badge/EXPLORE-9B59FF?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW_PROJECT-9B59FF?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
 
 <td width="50%" valign="top">
 
-###  StackOverflow Agent
+### StackOverflow Agent
 
-An AI agent project built around LLMs, tools and data retrieval.
+An AI agent project using LLMs, tools, and data retrieval to work with Stack Overflow-related data.
 
 **Built with**
 
@@ -223,7 +234,7 @@ An AI agent project built around LLMs, tools and data retrieval.
 <br>
 
 <a href="https://github.com/marames25/stackoverflow-agent">
-<img src="https://img.shields.io/badge/EXPLORE-9B59FF?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW_PROJECT-9B59FF?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
@@ -234,7 +245,7 @@ An AI agent project built around LLMs, tools and data retrieval.
 
 <td width="50%" valign="top">
 
-###  QuRadar
+### QuRadar Traffic Violation System
 
 A Java-based traffic violation management system.
 
@@ -245,87 +256,94 @@ A Java-based traffic violation management system.
 <br>
 
 <a href="https://github.com/marames25/QuRadar-Traffic-Violation-System">
-<img src="https://img.shields.io/badge/EXPLORE-9B59FF?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW_PROJECT-9B59FF?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
 
 <td width="50%" valign="top">
 
-###  Contact Manager
+### Contact Manager
 
-A project for managing and organizing contact information.
+A project focused on managing and organizing contact information.
 
 <br>
 
 <a href="https://github.com/marames25/Contact-Manager">
-<img src="https://img.shields.io/badge/EXPLORE-9B59FF?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW_PROJECT-9B59FF?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
 
 </tr>
+
 </table>
 
 ---
 
 <div align="center">
 
-##  BUILD → TEST → IMPROVE
+## SOFTWARE TESTING
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=15&duration=2500&pause=700&color=9B59FF&center=true&vCenter=true&width=800&height=50&lines=Write+code.;Test+it.;Find+the+bug.;Fix+it.;Automate+it.;Make+it+better." />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=15&duration=2500&pause=800&color=9B59FF&center=true&vCenter=true&width=800&height=45&lines=Manual+Testing;Selenium+Automation;TestNG;Page+Object+Model;SHAFT+Engine" />
 
 <br><br>
 
 </div>
 
-```text
-             ┌───────────────┐
-             │     IDEA      │
-             └───────┬───────┘
-                     ↓
-             ┌───────────────┐
-             │     CODE      │
-             └───────┬───────┘
-                     ↓
-             ┌───────────────┐
-             │     TEST      │
-             └───────┬───────┘
-                     ↓
-             ┌───────────────┐
-             │   DEBUG     │
-             └───────┬───────┘
-                     ↓
-             ┌───────────────┐
-             │    IMPROVE    │
-             └───────┬───────┘
-                     │
-                     └──────────→ 🔁
-```
+I'm interested in software quality throughout the development process — from test design and execution to automation and continuous improvement.
+
+My testing experience includes:
+
+`Manual Testing` · `Selenium` · `Java` · `TestNG` · `POM` · `SHAFT`
 
 ---
 
 <div align="center">
 
-##  CURRENTLY LEARNING
+## BACKEND & AI
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&duration=2600&pause=900&color=9B59FF&center=true&vCenter=true&width=800&height=45&lines=Learning+Backend+Development;Building+REST+APIs;Exploring+LLMs+%26+RAG;Experimenting+with+AI+Agents" />
 
 </div>
 
-```text
-Backend Development
-████████████████░░░░  REST APIs • Node.js • .NET
+### Backend
 
-Software Testing
-█████████████████░░░  Automation • Selenium • QA
+`Node.js` · `Express.js` · `ASP.NET` · `.NET` · `REST APIs` · `SQL`
 
-Generative AI
-██████████████░░░░░░  LLMs • RAG • Agents
+### Artificial Intelligence
 
-Computer Vision
-████████████░░░░░░░░  YOLO • OCR • Image Processing
-```
+`Python` · `LLMs` · `RAG` · `LangChain` · `LangGraph` · `AI Agents` · `Hugging Face`
+
+---
+
+<div align="center">
+
+## CURRENTLY LEARNING
+
+<br>
+
+### Backend Development
+
+`Node.js` `Express.js` `ASP.NET` `.NET` `REST APIs`
+
+### Software Testing
+
+`Selenium` `TestNG` `POM` `SHAFT`
+
+### Generative AI
+
+`LLMs` `RAG` `LangChain` `LangGraph` `AI Agents`
+
+### Computer Vision
+
+`YOLO` `OCR` `Image Processing`
+
+</div>
 
 ---
 
@@ -335,20 +353,19 @@ Computer Vision
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=marames25&show_icons=true&theme=midnight-purple&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=marames25&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=9B59FF&icon_color=9B59FF&text_color=ffffff" />
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&layout=compact&theme=midnight-purple&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&layout=compact&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=9B59FF&text_color=ffffff" />
 
 </div>
 
 ---
 
-
 <div align="center">
 
-##  CONNECT
+## CONNECT
 
 <br>
 
