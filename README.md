@@ -379,8 +379,5 @@ My testing experience includes:
 
 <img src="https://komarev.com/ghpvc/?username=marames25&style=for-the-badge&color=9B59FF"/>
 
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=9B59FF&height=100&section=footer"/>
 
 </div>
