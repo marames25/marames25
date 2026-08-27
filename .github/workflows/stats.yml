@@ -8,37 +8,292 @@ on:
     branches:
       - main
 
-jobs:
-  stats:
-    runs-on: ubuntu-latest
+permissions:
+  contents: write
 
-    permissions:
-      contents: write
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Generate GitHub Stats
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: stats
-          options: username=marames25&show_icons=true&hide_border=true&bg_color=00000000&title_color=FF3ED1&icon_color=FF3ED1&text_color=FFFFFF&ring_color=FF3ED1
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          import urllib.error
+          from collections import Counter
+          from pathlib import Path
+          from html import escape
 
-      - name: Generate Top Languages
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: top-langs
-          options: username=marames25&layout=compact&hide_border=true&bg_color=00000000&title_color=FF3ED1&text_color=FFFFFF
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME = "marames25"
+          TOKEN = os.environ["GH_TOKEN"]
 
-      - name: Commit generated stats
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {TOKEN}",
+              "X-GitHub-Api-Version": "2026-03-10",
+              "User-Agent": "github-stats-generator"
+          }
+
+          def github_api(url):
+              request = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(request) as response:
+                  return json.loads(response.read().decode())
+
+          print("Fetching repositories...")
+
+          repos = []
+          page = 1
+
+          while True:
+              url = (
+                  f"https://api.github.com/users/{USERNAME}/repos"
+                  f"?per_page=100&page={page}&type=owner"
+              )
+
+              data = github_api(url)
+
+              if not data:
+                  break
+
+              repos.extend(data)
+
+              if len(data) < 100:
+                  break
+
+              page += 1
+
+          print(f"Found {len(repos)} repositories")
+
+          # ------------------------------------------------------------
+          # Repository statistics
+          # ------------------------------------------------------------
+
+          stars = sum(repo.get("stargazers_count", 0) for repo in repos)
+          forks = sum(repo.get("forks_count", 0) for repo in repos)
+
+          # Count repositories by primary language
+          languages = Counter()
+
+          for repo in repos:
+              language = repo.get("language")
+
+              if language:
+                  languages[language] += 1
+
+          # ------------------------------------------------------------
+          # GitHub Stats SVG
+          # ------------------------------------------------------------
+
+          stats_svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
+            width="495"
+            height="195"
+            viewBox="0 0 495 195">
+
+            <style>
+              .title {{
+                fill: #FF3ED1;
+                font: 600 18px Arial, sans-serif;
+              }}
+
+              .label {{
+                fill: #FFFFFF;
+                font: 500 14px Arial, sans-serif;
+              }}
+
+              .value {{
+                fill: #FFFFFF;
+                font: 700 20px Arial, sans-serif;
+              }}
+
+              .sub {{
+                fill: #C8A2FF;
+                font: 400 12px Arial, sans-serif;
+              }}
+            </style>
+
+            <rect
+              x="0"
+              y="0"
+              width="495"
+              height="195"
+              rx="12"
+              fill="#000000"
+              fill-opacity="0.35"
+              stroke="#FF3ED1"
+              stroke-opacity="0.35"/>
+
+            <text x="25" y="35" class="title">
+              Maram's GitHub Stats
+            </text>
+
+            <text x="25" y="75" class="label">
+              Public Repositories
+            </text>
+
+            <text x="25" y="100" class="value">
+              {len(repos)}
+            </text>
+
+            <text x="175" y="75" class="label">
+              Stars
+            </text>
+
+            <text x="175" y="100" class="value">
+              {stars}
+            </text>
+
+            <text x="300" y="75" class="label">
+              Forks
+            </text>
+
+            <text x="300" y="100" class="value">
+              {forks}
+            </text>
+
+            <text x="25" y="140" class="label">
+              Most Used Language
+            </text>
+
+            <text x="25" y="165" class="value">
+              {escape(languages.most_common(1)[0][0] if languages else "N/A")}
+            </text>
+
+            <text x="175" y="140" class="label">
+              Languages
+            </text>
+
+            <text x="175" y="165" class="value">
+              {len(languages)}
+            </text>
+
+            <text x="300" y="140" class="label">
+              Developer
+            </text>
+
+            <text x="300" y="165" class="value">
+              {USERNAME}
+            </text>
+
+          </svg>'''
+
+          # ------------------------------------------------------------
+          # Top Languages SVG
+          # ------------------------------------------------------------
+
+          top_languages = languages.most_common(6)
+
+          total = sum(languages.values()) or 1
+
+          language_rows = ""
+
+          y = 55
+
+          for language, count in top_languages:
+              percentage = count / total * 100
+
+              language_rows += f'''
+                <text x="25" y="{y}" class="label">
+                  {escape(language)}
+                </text>
+
+                <rect
+                  x="150"
+                  y="{y - 12}"
+                  width="220"
+                  height="12"
+                  rx="6"
+                  fill="#222222"/>
+
+                <rect
+                  x="150"
+                  y="{y - 12}"
+                  width="{220 * percentage / 100:.1f}"
+                  height="12"
+                  rx="6"
+                  fill="#FF3ED1"/>
+
+                <text x="385" y="{y}" class="percentage">
+                  {percentage:.1f}%
+                </text>
+              '''
+
+              y += 25
+
+          top_langs_svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
+            width="495"
+            height="220"
+            viewBox="0 0 495 220">
+
+            <style>
+              .title {{
+                fill: #FF3ED1;
+                font: 600 18px Arial, sans-serif;
+              }}
+
+              .label {{
+                fill: #FFFFFF;
+                font: 500 13px Arial, sans-serif;
+              }}
+
+              .percentage {{
+                fill: #C8A2FF;
+                font: 500 12px Arial, sans-serif;
+              }}
+            </style>
+
+            <rect
+              x="0"
+              y="0"
+              width="495"
+              height="220"
+              rx="12"
+              fill="#000000"
+              fill-opacity="0.35"
+              stroke="#FF3ED1"
+              stroke-opacity="0.35"/>
+
+            <text x="25" y="32" class="title">
+              Most Used Languages
+            </text>
+
+            {language_rows}
+
+          </svg>'''
+
+          Path("profile").mkdir(exist_ok=True)
+
+          Path("profile/stats.svg").write_text(
+              stats_svg,
+              encoding="utf-8"
+          )
+
+          Path("profile/top-langs.svg").write_text(
+              top_langs_svg,
+              encoding="utf-8"
+          )
+
+          print("Generated profile/stats.svg")
+          print("Generated profile/top-langs.svg")
+          PY
+
+      - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/
-          git diff --cached --quiet || git commit -m "Update GitHub stats"
-          git push
+
+          git add profile/stats.svg profile/top-langs.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update GitHub stats"
+            git push
+          fi
