@@ -269,11 +269,6 @@ Deepening my backend development knowledge while continuing to explore AI and so
 
 <img src="https://raw.githubusercontent.com/marames25/marames25/output/git-invader-multi-dark.svg" width="900"/>
 
-<<<<<<< Updated upstream
-<br><br>
-
-=======
->>>>>>> Stashed changes
 </div>
 
 <div align="center">
@@ -282,11 +277,11 @@ Deepening my backend development knowledge while continuing to explore AI and so
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=marames25&show_icons=true&hide_border=true&theme=transparent&title_color=FF3ED1&icon_color=FF3ED1&text_color=FFFFFF"/>
+<img src="./profile/stats.svg" width="500"/>
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&layout=compact&hide_border=true&theme=transparent&title_color=FF3ED1&text_color=FFFFFF"/>
+<img src="./profile/top-langs.svg" width="400"/>
 
 </div>
 
@@ -306,10 +301,4 @@ Deepening my backend development knowledge while continuing to explore AI and so
 
 <br><br>
 
-<<<<<<< Updated upstream
-<img src="https://komarev.com/ghpvc/?username=marames25&style=for-the-badge&color=9B59FF"/>
-
-
-=======
->>>>>>> Stashed changes
 </div>
