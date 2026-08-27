@@ -345,19 +345,27 @@ My testing experience includes:
 
 </div>
 
+---
+
 <div align="center">
 
 ## GITHUB
 
 <br>
 
-![Maram's GitHub Stats](https://github-readme-stats.vercel.app/api?username=marames25&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=9B59FF&icon_color=9B59FF&text_color=ffffff)
+<img src="https://raw.githubusercontent.com/marames25/marames25/output/git-invader-multi-dark.svg" width="900"/>
 
 <br><br>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&layout=compact&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=9B59FF&text_color=ffffff)
+<img src="https://github-readme-stats.vercel.app/api?username=marames25&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=9B59FF&icon_color=9B59FF&text_color=ffffff" />
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&layout=compact&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=9B59FF&text_color=ffffff" />
 
 </div>
+
+---
 
 <div align="center">
 
