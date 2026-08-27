@@ -184,83 +184,111 @@ jobs:
 
           </svg>'''
 
-          # ------------------------------------------------------------
+                    # ------------------------------------------------------------
           # Top Languages SVG
           # ------------------------------------------------------------
 
-          top_languages = languages.most_common(6)
+          top_languages = languages.most_common(5)
 
           total = sum(languages.values()) or 1
 
-          language_rows = ""
+          # GitHub Readme Stats-like language colors
+          language_colors = {
+              "Python": "#3572A5",
+              "Java": "#b07219",
+              "JavaScript": "#f1e05a",
+              "TypeScript": "#3178c6",
+              "C++": "#f34b7d",
+              "C#": "#178600",
+              "HTML": "#e34c26",
+              "CSS": "#563d7c",
+              "PHP": "#4F5D95",
+              "Jupyter Notebook": "#DA5B0B",
+              "Shell": "#89e051",
+              "Go": "#00ADD8",
+              "Kotlin": "#A97BFF",
+              "Dart": "#00B4AB",
+              "Ruby": "#701516"
+          }
 
-          y = 55
+          # Create language rows
+          language_rows = ""
+          y = 68
 
           for language, count in top_languages:
+
               percentage = count / total * 100
 
+              bar_width = 420 * percentage / 100
+
+              color = language_colors.get(language, "#FF3ED1")
+
               language_rows += f'''
-                <text x="25" y="{y}" class="label">
+                <rect
+                  x="25"
+                  y="{y - 10}"
+                  width="{bar_width:.1f}"
+                  height="8"
+                  rx="4"
+                  fill="{color}"/>
+
+                <text
+                  x="25"
+                  y="{y + 18}"
+                  class="language">
                   {escape(language)}
                 </text>
 
-                <rect
-                  x="150"
-                  y="{y - 12}"
-                  width="220"
-                  height="12"
-                  rx="6"
-                  fill="#222222"/>
-
-                <rect
-                  x="150"
-                  y="{y - 12}"
-                  width="{220 * percentage / 100:.1f}"
-                  height="12"
-                  rx="6"
-                  fill="#FF3ED1"/>
-
-                <text x="385" y="{y}" class="percentage">
+                <text
+                  x="420"
+                  y="{y + 18}"
+                  text-anchor="end"
+                  class="percentage">
                   {percentage:.1f}%
                 </text>
               '''
 
-              y += 25
+              y += 30
 
           top_langs_svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
             width="495"
-            height="220"
-            viewBox="0 0 495 220">
+            height="250"
+            viewBox="0 0 495 250">
 
             <style>
+
               .title {{
                 fill: #FF3ED1;
                 font: 600 18px Arial, sans-serif;
               }}
 
-              .label {{
+              .language {{
                 fill: #FFFFFF;
                 font: 500 13px Arial, sans-serif;
               }}
 
               .percentage {{
                 fill: #C8A2FF;
-                font: 500 12px Arial, sans-serif;
+                font: 500 13px Arial, sans-serif;
               }}
+
             </style>
 
             <rect
               x="0"
               y="0"
               width="495"
-              height="220"
+              height="250"
               rx="12"
               fill="#000000"
               fill-opacity="0.35"
               stroke="#FF3ED1"
               stroke-opacity="0.35"/>
 
-            <text x="25" y="32" class="title">
+            <text
+              x="25"
+              y="32"
+              class="title">
               Most Used Languages
             </text>
 
@@ -268,19 +296,11 @@ jobs:
 
           </svg>'''
 
-          Path("profile").mkdir(exist_ok=True)
-
-          Path("profile/stats.svg").write_text(
-              stats_svg,
-              encoding="utf-8"
-          )
-
           Path("profile/top-langs.svg").write_text(
               top_langs_svg,
               encoding="utf-8"
           )
 
-          print("Generated profile/stats.svg")
           print("Generated profile/top-langs.svg")
           PY
 
