@@ -61,10 +61,18 @@ Currently, I'm focusing on strengthening my **backend development** skills while
 ### BACKEND DEVELOPMENT
 
 <img src="https://img.shields.io/badge/NODE.JS-000000?style=for-the-badge&logo=nodedotjs&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/EXPRESS.JS-000000?style=for-the-badge&logo=express&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/ASP.NET-000000?style=for-the-badge&logo=dotnet&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/.NET-000000?style=for-the-badge&logo=dotnet&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/REST_APIs-000000?style=for-the-badge&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/SQL_SERVER-000000?style=for-the-badge&logo=microsoftsqlserver&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/MYSQL-000000?style=for-the-badge&logo=mysql&logoColor=FF3ED1"/>
 
 <br><br>
 
@@ -75,21 +83,67 @@ Currently, I'm focusing on strengthening my **backend development** skills while
 <img src="https://img.shields.io/badge/SHAFT-000000?style=for-the-badge&logoColor=FF3ED1"/>
 <img src="https://img.shields.io/badge/POM-000000?style=for-the-badge&logoColor=FF3ED1"/>
 <img src="https://img.shields.io/badge/MANUAL_TESTING-000000?style=for-the-badge&logoColor=FF3ED1"/>
+<img src="https://img.shields.io/badge/API_TESTING-000000?style=for-the-badge&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/WEB_AUTOMATION-000000?style=for-the-badge&logoColor=FF3ED1"/>
 
 <br><br>
 
 ### AI & MACHINE LEARNING
 
 <img src="https://img.shields.io/badge/PYTORCH-000000?style=for-the-badge&logo=pytorch&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/TRANSFORMERS-000000?style=for-the-badge&logo=huggingface&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/NLP-000000?style=for-the-badge&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/LANGCHAIN-000000?style=for-the-badge&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/LANGGRAPH-000000?style=for-the-badge&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/RAG-000000?style=for-the-badge&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/LLMs-000000?style=for-the-badge&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/HUGGING_FACE-000000?style=for-the-badge&logo=huggingface&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/YOLOv8-000000?style=for-the-badge&logoColor=FF3ED1"/>
+
 <img src="https://img.shields.io/badge/OCR-000000?style=for-the-badge&logoColor=FF3ED1"/>
 
 <br><br>
+
+### TOOLS
+
+<img src="https://img.shields.io/badge/GIT-000000?style=for-the-badge&logo=git&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/GITHUB_ACTIONS-000000?style=for-the-badge&logo=githubactions&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/POSTMAN-000000?style=for-the-badge&logo=postman&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/DOCKER-000000?style=for-the-badge&logo=docker&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/SWAGGER-000000?style=for-the-badge&logo=swagger&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/JUPYTER-000000?style=for-the-badge&logo=jupyter&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/VS_CODE-000000?style=for-the-badge&logo=visualstudiocode&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/INTELLIJ-000000?style=for-the-badge&logo=intellijidea&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/MAVEN-000000?style=for-the-badge&logo=apachemaven&logoColor=FF3ED1"/>
+
+<br><br>
+
+### DATABASES
+
+<img src="https://img.shields.io/badge/SQL_SERVER-000000?style=for-the-badge&logo=microsoftsqlserver&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/MYSQL-000000?style=for-the-badge&logo=mysql&logoColor=FF3ED1"/>
+
+<img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logoColor=FF3ED1"/>
 
 ### TOOLS
 
