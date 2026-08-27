@@ -1,182 +1,158 @@
 <svg xmlns="http://www.w3.org/2000/svg"
   width="495"
-  height="220"
-  viewBox="0 0 495 220">
+  height="250"
+  viewBox="0 0 495 250">
 
   <style>
+
     .title {
       fill: #FF3ED1;
       font: 600 18px Arial, sans-serif;
     }
 
-    .label {
+    .language {
       fill: #FFFFFF;
       font: 500 13px Arial, sans-serif;
     }
 
     .percentage {
       fill: #C8A2FF;
-      font: 500 12px Arial, sans-serif;
+      font: 500 13px Arial, sans-serif;
     }
+
   </style>
 
   <rect
     x="0"
     y="0"
     width="495"
-    height="220"
+    height="250"
     rx="12"
     fill="#000000"
     fill-opacity="0.35"
     stroke="#FF3ED1"
     stroke-opacity="0.35"/>
 
-  <text x="25" y="32" class="title">
+  <text
+    x="25"
+    y="32"
+    class="title">
     Most Used Languages
   </text>
 
   
-      <text x="25" y="55" class="label">
+      <rect
+        x="25"
+        y="58"
+        width="161.5"
+        height="8"
+        rx="4"
+        fill="#f34b7d"/>
+
+      <text
+        x="25"
+        y="86"
+        class="language">
         C++
       </text>
 
-      <rect
-        x="150"
-        y="43"
-        width="220"
-        height="12"
-        rx="6"
-        fill="#222222"/>
-
-      <rect
-        x="150"
-        y="43"
-        width="84.6"
-        height="12"
-        rx="6"
-        fill="#FF3ED1"/>
-
-      <text x="385" y="55" class="percentage">
+      <text
+        x="420"
+        y="86"
+        text-anchor="end"
+        class="percentage">
         38.5%
       </text>
     
-      <text x="25" y="80" class="label">
+      <rect
+        x="25"
+        y="88"
+        width="80.8"
+        height="8"
+        rx="4"
+        fill="#3572A5"/>
+
+      <text
+        x="25"
+        y="116"
+        class="language">
         Python
       </text>
 
-      <rect
-        x="150"
-        y="68"
-        width="220"
-        height="12"
-        rx="6"
-        fill="#222222"/>
-
-      <rect
-        x="150"
-        y="68"
-        width="42.3"
-        height="12"
-        rx="6"
-        fill="#FF3ED1"/>
-
-      <text x="385" y="80" class="percentage">
+      <text
+        x="420"
+        y="116"
+        text-anchor="end"
+        class="percentage">
         19.2%
       </text>
     
-      <text x="25" y="105" class="label">
+      <rect
+        x="25"
+        y="118"
+        width="64.6"
+        height="8"
+        rx="4"
+        fill="#b07219"/>
+
+      <text
+        x="25"
+        y="146"
+        class="language">
         Java
       </text>
 
-      <rect
-        x="150"
-        y="93"
-        width="220"
-        height="12"
-        rx="6"
-        fill="#222222"/>
-
-      <rect
-        x="150"
-        y="93"
-        width="33.8"
-        height="12"
-        rx="6"
-        fill="#FF3ED1"/>
-
-      <text x="385" y="105" class="percentage">
+      <text
+        x="420"
+        y="146"
+        text-anchor="end"
+        class="percentage">
         15.4%
       </text>
     
-      <text x="25" y="130" class="label">
+      <rect
+        x="25"
+        y="148"
+        width="48.5"
+        height="8"
+        rx="4"
+        fill="#DA5B0B"/>
+
+      <text
+        x="25"
+        y="176"
+        class="language">
         Jupyter Notebook
       </text>
 
-      <rect
-        x="150"
-        y="118"
-        width="220"
-        height="12"
-        rx="6"
-        fill="#222222"/>
-
-      <rect
-        x="150"
-        y="118"
-        width="25.4"
-        height="12"
-        rx="6"
-        fill="#FF3ED1"/>
-
-      <text x="385" y="130" class="percentage">
+      <text
+        x="420"
+        y="176"
+        text-anchor="end"
+        class="percentage">
         11.5%
       </text>
     
-      <text x="25" y="155" class="label">
+      <rect
+        x="25"
+        y="178"
+        width="16.2"
+        height="8"
+        rx="4"
+        fill="#178600"/>
+
+      <text
+        x="25"
+        y="206"
+        class="language">
         C#
       </text>
 
-      <rect
-        x="150"
-        y="143"
-        width="220"
-        height="12"
-        rx="6"
-        fill="#222222"/>
-
-      <rect
-        x="150"
-        y="143"
-        width="8.5"
-        height="12"
-        rx="6"
-        fill="#FF3ED1"/>
-
-      <text x="385" y="155" class="percentage">
-        3.8%
-      </text>
-    
-      <text x="25" y="180" class="label">
-        CSS
-      </text>
-
-      <rect
-        x="150"
-        y="168"
-        width="220"
-        height="12"
-        rx="6"
-        fill="#222222"/>
-
-      <rect
-        x="150"
-        y="168"
-        width="8.5"
-        height="12"
-        rx="6"
-        fill="#FF3ED1"/>
-
-      <text x="385" y="180" class="percentage">
+      <text
+        x="420"
+        y="206"
+        text-anchor="end"
+        class="percentage">
         3.8%
       </text>
     
