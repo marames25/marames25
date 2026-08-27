@@ -277,11 +277,24 @@ Deepening my backend development knowledge while continuing to explore AI and so
 
 <br>
 
+<table>
+<tr>
+<td>
+
 <img src="./profile/stats.svg" width="500"/>
 
-<br><br>
+</td>
+<td>
 
 <img src="./profile/top-langs.svg" width="400"/>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=marames25&bg_color=00000000&color=FFFFFF&line=FF3ED1&point=FF3ED1&area=true&hide_border=true"/>
 
 </div>
 
