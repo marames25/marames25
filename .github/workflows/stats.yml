@@ -31,13 +31,13 @@ jobs:
       # Most Used Languages Card
       # ------------------------------------------------------------
 
-      - name: Generate Top Languages
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: top-langs
-          options: username=marames25&layout=compact&hide_border=true&bg_color=00000000&title_color=FF3ED1&text_color=FFFFFF
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate GitHub Stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          # your existing Python generator
+          PY
 
       # ------------------------------------------------------------
       # Commit generated cards
