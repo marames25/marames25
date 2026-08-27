@@ -1,6 +1,6 @@
 <div align="center">
-
-
+  
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="300"/>
 
 <br><br>
 
@@ -341,15 +341,21 @@ Computer Vision
 
 <div align="center">
 
-##  GITHUB
+## GITHUB
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=marames25&show_icons=true&hide_border=true&theme=midnight-purple&bg_color=00000000&title_color=9B59FF&icon_color=9B59FF&text_color=ffffff" />
+<img
+  src="https://github-readme-stats.vercel.app/api?username=marames25&show_icons=true&theme=midnight-purple&hide_border=true"
+  alt="Maram's GitHub Stats"
+/>
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&layout=compact&hide_border=true&theme=midnight-purple&bg_color=00000000&title_color=9B59FF&text_color=ffffff" />
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=marames25&layout=compact&theme=midnight-purple&hide_border=true"
+  alt="Maram's Most Used Languages"
+/>
 
 </div>
 
