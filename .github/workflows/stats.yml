@@ -19,15 +19,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ------------------------------------------------------------
-      # GitHub Stats Card
-      # ------------------------------------------------------------
-
-      - name: Generate GitHub Stats
+            - name: Generate GitHub Stats
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: username=marames25&show_icons=true&hide_border=true&bg_color=00000000&title_color=FF3ED1&icon_color=FF3ED1&text_color=FFFFFF&ring_color=FF3ED1
+          options: 'username=marames25&show_icons=true&hide_border=true&bg_color=00000000&title_color=FF3ED1&icon_color=FF3ED1&text_color=FFFFFF&ring_color=FF3ED1'
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
