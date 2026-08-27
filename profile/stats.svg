@@ -1,15 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="495"
+  height="195"
+  viewBox="0 0 495 195">
 
-    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#00000000" xmlns="http://www.w3.org/2000/svg">
-    <style>
-    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #FF3ED1 }
-    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #FFFFFF }
-    .gray { fill: #858585 }
-    </style>
-    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#00000000" stroke="#e4e2e2"/>
-    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
-    <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">Resource not accessible by integration</tspan>
-      <tspan x="25" dy="18" class="gray">FORBIDDEN</tspan>
-    </text>
-    </svg>
-  
+  <style>
+
+    .title {
+      fill: #FF3ED1;
+      font: 600 18px Arial, sans-serif;
+    }
+
+    .label {
+      fill: #FFFFFF;
+      font: 500 14px Arial, sans-serif;
+    }
+
+    .value {
+      fill: #FFFFFF;
+      font: 700 20px Arial, sans-serif;
+    }
+
+  </style>
+
+
+  <rect
+    x="0"
+    y="0"
+    width="495"
+    height="195"
+    rx="12"
+    fill="#000000"
+    fill-opacity="0.35"
+    stroke="#FF3ED1"
+    stroke-opacity="0.35"/>
+
+
+  <text
+    x="25"
+    y="35"
+    class="title">
+
+    Maram's GitHub Stats
+
+  </text>
+
+
+  <text
+    x="25"
+    y="75"
+    class="label">
+
+    Public Repositories
+
+  </text>
+
+
+  <text
+    x="25"
+    y="100"
+    class="value">
+
+    28
+
+  </text>
+
+
+  <text
+    x="175"
+    y="75"
+    class="label">
+
+    Stars
+
+  </text>
+
+
+  <text
+    x="175"
+    y="100"
+    class="value">
+
+    0
+
+  </text>
+
+
+  <text
+    x="300"
+    y="75"
+    class="label">
+
+    Forks
+
+  </text>
+
+
+  <text
+    x="300"
+    y="100"
+    class="value">
+
+    3
+
+  </text>
+
+
+  <text
+    x="25"
+    y="140"
+    class="label">
+
+    Most Used Language
+
+  </text>
+
+
+  <text
+    x="25"
+    y="165"
+    class="value">
+
+    C++
+
+  </text>
+
+
+  <text
+    x="175"
+    y="140"
+    class="label">
+
+    Languages
+
+  </text>
+
+
+  <text
+    x="175"
+    y="165"
+    class="value">
+
+    8
+
+  </text>
+
+
+  <text
+    x="300"
+    y="140"
+    class="label">
+
+    Developer
+
+  </text>
+
+
+  <text
+    x="300"
+    y="165"
+    class="value">
+
+    marames25
+
+  </text>
+
+</svg>
