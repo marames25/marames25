@@ -71,7 +71,7 @@
         text-anchor="end"
         class="percentage">
 
-        43.5%
+        41.7%
 
       </text>
 
@@ -100,7 +100,7 @@
         text-anchor="end"
         class="percentage">
 
-        21.7%
+        20.8%
 
       </text>
 
@@ -110,41 +110,12 @@
         cx="30"
         cy="131"
         r="5"
-        fill="#b07219"/>
-
-
-      <text
-        x="45"
-        y="136"
-        class="language">
-
-        Java
-
-      </text>
-
-
-      <text
-        x="455"
-        y="136"
-        text-anchor="end"
-        class="percentage">
-
-        17.4%
-
-      </text>
-
-    
-
-      <circle
-        cx="30"
-        cy="163"
-        r="5"
         fill="#DA5B0B"/>
 
 
       <text
         x="45"
-        y="168"
+        y="136"
         class="language">
 
         Jupyter Notebook
@@ -154,11 +125,40 @@
 
       <text
         x="455"
+        y="136"
+        text-anchor="end"
+        class="percentage">
+
+        16.7%
+
+      </text>
+
+    
+
+      <circle
+        cx="30"
+        cy="163"
+        r="5"
+        fill="#b07219"/>
+
+
+      <text
+        x="45"
+        y="168"
+        class="language">
+
+        Java
+
+      </text>
+
+
+      <text
+        x="455"
         y="168"
         text-anchor="end"
         class="percentage">
 
-        13.0%
+        16.7%
 
       </text>
 
@@ -187,7 +187,7 @@
         text-anchor="end"
         class="percentage">
 
-        4.3%
+        4.2%
 
       </text>
 
