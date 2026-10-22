@@ -71,7 +71,7 @@
         text-anchor="end"
         class="percentage">
 
-        40.7%
+        37.0%
 
       </text>
 
@@ -110,7 +110,7 @@
         cx="30"
         cy="131"
         r="5"
-        fill="#DA5B0B"/>
+        fill="#b07219"/>
 
 
       <text
@@ -118,7 +118,7 @@
         y="136"
         class="language">
 
-        Jupyter Notebook
+        Java
 
       </text>
 
@@ -129,7 +129,7 @@
         text-anchor="end"
         class="percentage">
 
-        14.8%
+        18.5%
 
       </text>
 
@@ -139,7 +139,7 @@
         cx="30"
         cy="163"
         r="5"
-        fill="#b07219"/>
+        fill="#DA5B0B"/>
 
 
       <text
@@ -147,7 +147,7 @@
         y="168"
         class="language">
 
-        Java
+        Jupyter Notebook
 
       </text>
 
